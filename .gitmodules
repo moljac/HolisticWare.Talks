@@ -1,0 +1,9 @@
+[submodule "2016-10/HolisticWare.Talks.ChangeCon16"]
+	path = 2016-10/HolisticWare.Talks.ChangeCon16
+	url = https://github.com/moljac/HolisticWare.Talks.ChangeCon16.git
+[submodule "2016-09/HolisticWare.Talks.KulenDayz2016"]
+	path = 2016-09/HolisticWare.Talks.KulenDayz2016
+	url = https://github.com/moljac/HolisticWare.Talks.KulenDayz2016.git
+[submodule "2016-09/HolisticWare.Talks.MobilityDay.2016"]
+	path = 2016-09/HolisticWare.Talks.MobilityDay.2016
+	url = https://github.com/moljac/HolisticWare.Talks.MobilityDay.2016.git
