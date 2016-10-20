@@ -7,3 +7,15 @@
 [submodule "2016-09/HolisticWare.Talks.MobilityDay.2016"]
 	path = 2016-09/HolisticWare.Talks.MobilityDay.2016
 	url = https://github.com/moljac/HolisticWare.Talks.MobilityDay.2016.git
+[submodule "2013-06/HolisticWare.Talks.CASE25"]
+	path = 2013-06/HolisticWare.Talks.CASE25
+	url = https://github.com/moljac/HolisticWare.Talks.CASE25.git
+[submodule "2014-06/HolisticWare.Talks.CASE26"]
+	path = 2014-06/HolisticWare.Talks.CASE26
+	url = https://github.com/moljac/HolisticWare.Talks.CASE26.git
+[submodule "2015-06/HolisticWare.Talks.CASE27"]
+	path = 2015-06/HolisticWare.Talks.CASE27
+	url = https://github.com/moljac/HolisticWare.Talks.CASE27.git
+[submodule "2013-12/HolisticWare.Talks.Algebra201312"]
+	path = 2013-12/HolisticWare.Talks.Algebra201312
+	url = https://github.com/moljac/HolisticWare.Talks.Algebra201312.git
