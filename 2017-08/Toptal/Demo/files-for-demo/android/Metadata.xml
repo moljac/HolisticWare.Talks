@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+
+    <!--
+    # Problem[s]
+    
+        obj/Debug/generated/src/Com.Garmin.Monkeybrains.Serialization.MonkeyArray.cs(251,124): 
+        error CS0533: 
+            `Com.Garmin.Monkeybrains.Serialization.MonkeyArray.ToJava()' 
+        hides inherited abstract member 
+            `Com.Garmin.Monkeybrains.Serialization.MonkeyType.ToJava()'
+
+
+        obj/Debug/generated/src/Com.Garmin.Monkeybrains.Serialization.MonkeyBool.cs(179,51): 
+        error CS0533: 
+            `Com.Garmin.Monkeybrains.Serialization.MonkeyBool.ToJava()' 
+        hides inherited abstract member 
+            `Com.Garmin.Monkeybrains.Serialization.MonkeyType.ToJava()'
+
+        obj/Debug/generated/src/Com.Garmin.Monkeybrains.Serialization.MonkeyFloat.cs(179,49): 
+        error CS0533: 
+            `Com.Garmin.Monkeybrains.Serialization.MonkeyFloat.ToJava()' 
+        hides inherited abstract member 
+            `Com.Garmin.Monkeybrains.Serialization.MonkeyType.ToJava()'
+
+        obj/Debug/generated/src/Com.Garmin.Monkeybrains.Serialization.MonkeyHash.cs(283,188): 
+        error CS0533: 
+            `Com.Garmin.Monkeybrains.Serialization.MonkeyHash.ToJava()' 
+        hides inherited abstract member 
+            `Com.Garmin.Monkeybrains.Serialization.MonkeyType.ToJava()'
+
+        obj/Debug/generated/src/Com.Garmin.Monkeybrains.Serialization.MonkeyInt.cs(179,51): 
+        error CS0533: 
+            `Com.Garmin.Monkeybrains.Serialization.MonkeyInt.ToJava()' 
+        hides inherited abstract member 
+            `Com.Garmin.Monkeybrains.Serialization.MonkeyType.ToJava()'
+
+        obj/Debug/generated/src/Com.Garmin.Monkeybrains.Serialization.MonkeyString.cs(351,32): 
+        error CS0533: 
+            `Com.Garmin.Monkeybrains.Serialization.MonkeyString.ToJava()' 
+        hides inherited abstract member 
+            `Com.Garmin.Monkeybrains.Serialization.MonkeyType.ToJava()'
+
+    # Analysis
+
+        All classes where this error occurs have the same common base clas MonkeyType.
+
+    # [Re]Solution[s] / Workaround[s]
+
+
+        1.  remove-node those serialization classes might never be used from managed/C#/F# 
+            code        
+        2.  remove-node methods from derived classes with code copied to Additions/     
+            folder
+        3.  change abstract attribute to false
+
+        #3 chosen
+        Solved all.
+    
+    -->
+
+    <attr
+        path="/api/package[@name='com.garmin.monkeybrains.serialization']/class[@name='MonkeyType']/method[@name='toJava' and count(parameter)=0]"
+        name="abstract"
+        >
+        false
+    </attr>
+
+    
+com.garmin.android.apps.connectmobile.connectiq
+com.garmin.android.connectiq
+com.garmin.android.connectiq.adb
+com.garmin.android.connectiq.exception
+com.garmin.monkeybrains.serialization
+
+</metadata>

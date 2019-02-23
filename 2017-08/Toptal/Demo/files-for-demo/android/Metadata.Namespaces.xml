@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+
+    <attr 
+        path="/api/package[@name='com.garmin.android.apps.connectmobile.connectiq']" 
+        name="managedName"
+    	>
+		Garmin.ConnectIQ.ConnectMobile
+	</attr>
+    <attr 
+        path="/api/package[@name='com.garmin.android.connectiq']" 
+        name="managedName"
+        >
+        Garmin.ConnectIQ
+    </attr>
+    <attr 
+        path="/api/package[@name='com.garmin.android.connectiq.adb']" 
+        name="managedName"
+        >
+        Garmin.ConnectIQ.ADB
+    </attr>
+    <attr 
+        path="/api/package[@name='com.garmin.android.connectiq.exception']" 
+        name="managedName"
+        >
+        Garmin.ConnectIQ.Exceptions
+    </attr>
+    <attr 
+        path="/api/package[@name='com.garmin.monkeybrains.serialization']" 
+        name="managedName"
+        >
+        Garmin.MonkeyBrains.Serialization
+    </attr>
+
+</metadata>
