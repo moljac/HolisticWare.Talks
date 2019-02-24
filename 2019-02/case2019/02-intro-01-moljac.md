@@ -3,6 +3,7 @@
     *   2-3 years ago 
         *   desktop
         *   server (ASP.net)
+        *   performance was not 1st class citizen (mostly)
     *   today
         *   server - CLOUD
         *   client - EDGE

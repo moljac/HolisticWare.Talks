@@ -1,4 +1,5 @@
-## Outro - Choir and fat lady singing
+## Outro
+## Choir and fat lady singing
 
 > QUESTIONS?
 

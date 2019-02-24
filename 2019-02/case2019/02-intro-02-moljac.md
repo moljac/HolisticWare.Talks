@@ -1,7 +1,7 @@
 ## Intro 02
 
 *   new applications
-    *   Machine Learning
+    *   Data Science and Machine Learning
         *   in the cloud
         *   on the edge
 *   Microsoft (and other vendors) 
