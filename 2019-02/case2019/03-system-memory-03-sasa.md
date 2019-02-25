@@ -1,3 +1,5 @@
-## `System.Memory` 02
+## `System.Memory` 03
 
-> DEMO
+*   use
+    *   machine learning - Darko
+    *   Xamarin.Android - AndroidX build
