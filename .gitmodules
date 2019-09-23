@@ -19,3 +19,6 @@
 [submodule "2013-12/HolisticWare.Talks.Algebra201312"]
 	path = 2013-12/HolisticWare.Talks.Algebra201312
 	url = https://github.com/moljac/HolisticWare.Talks.Algebra201312.git
+[submodule "2016-10/HolisticWare.Talks.DevUG.Ck-Vz.20161024.Xamarin.Test"]
+	path = 2016-10/HolisticWare.Talks.DevUG.Ck-Vz.20161024.Xamarin.Test
+	url = https://github.com/moljac/HolisticWare.Talks.DevUG.Ck-Vz.20161024.Xamarin.Test.git
