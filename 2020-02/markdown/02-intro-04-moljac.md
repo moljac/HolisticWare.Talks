@@ -8,10 +8,8 @@
 
     *   `dotnet-scripts`
 
-    *   `Cake`
+    *   `Cake` (C# `make`)
 
-        *   CLI
-
-        *   `dotnet cake` (.NET Core global tool)
-
+    *   Fake (F# `make`)
+    
     *   non-C#: PowerShell [Core], bash, ...
