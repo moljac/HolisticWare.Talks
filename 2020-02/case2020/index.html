@@ -30,10 +30,10 @@
 				-->
 				<section 
 					data-markdown="../markdown/01-title.md"
-					data-separator="^\n\n\n"
-					data-separator-vertical="^\n\n"
-					data-separator-notes="^Note:"
-					data-charset="iso-8859-15"
+					data-separator="^\r?\n---\r?\n$"
+					data-separator-vertical="^\r?\n----\r?\n$"
+					data-separator-notes="^Note:"                 
+				  	data-charset="iso-8859-15"
 					>
 			   	<!--
 					Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
@@ -45,9 +45,9 @@
 				<section>
 					<section 
 						data-markdown="../markdown/02-intro-01-katodix.md"
-						data-separator="^\n\n\n"
-						data-separator-vertical="^\n\n"
-						data-separator-notes="^Note:"
+						data-separator="^\r?\n---\r?\n$"
+						data-separator-vertical="^\r?\n----\r?\n$"
+						data-separator-notes="^Note:"                 
 						data-charset="iso-8859-15"
 						>
 					   <!--
@@ -57,9 +57,9 @@
 					</section>				
 					<section 
 						data-markdown="../markdown/02-intro-02-katodix.md"
-						data-separator="^\n\n\n"
-						data-separator-vertical="^\n\n"
-						data-separator-notes="^Note:"
+						data-separator="^\r?\n---\r?\n$"
+						data-separator-vertical="^\r?\n----\r?\n$"
+						data-separator-notes="^Note:"                 
 						data-charset="iso-8859-15"
 						>
 					   <!--
@@ -171,6 +171,44 @@
 							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
 						-->
 					</section>						
+					<section 
+						data-markdown="../markdown/04-demo-ml-dotnet-somatotype-04-katodix.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+						<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+					</section>						
+				</section>
+				<section>
+					<section 
+						data-markdown="../markdown/05-current-status-and-foresight-01-moljac.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+						<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+					</section>						
+					<section 
+						data-markdown="../markdown/05-current-status-and-foresight-02-moljac.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+						<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+					</section>						
 				</section>
 				<section 
 					data-markdown="../markdown/99-outro-choir-and-fat-lady-sing.md"
@@ -230,6 +268,7 @@
 
 			// Turn autoSlide off
 			Reveal.configure({ autoSlide: 0 });
+			Reveal.configure({ slideNumber: 'h.v' });
 
 			// Start auto-sliding every 5s
 			//Reveal.configure({ autoSlide: 5000 });
@@ -279,7 +318,7 @@
 				overview: true,
 
 				// Vertical centering of slides
-				center: true,
+				center: false,
 
 				// Enables touch navigation on devices with touch input
 				touch: true,
