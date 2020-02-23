@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!--
+					=========================================================================================
+					HolisticWare
+				-->
+				<section 
+					data-markdown="./case2020/01-title.md"
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+					data-charset="iso-8859-15"
+					>
+			   	<!--
+					Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+				   	For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+			   	-->
+				</section>				
+				<section>
+					<section 
+						data-markdown="./case2020/02-intro-01-moljac.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+					   <!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+						   For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+					   -->
+					</section>				
+					<section 
+						data-markdown="./case2020/02-intro-02-moljac.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+					   <!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+						   For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+					   -->
+					</section>
+				</section>
+				<section>
+					 <!--
+					<section data-transition="slide fade-out" >
+						<img src="./case2020/stack-heap.png">
+					</section>
+					-->
+
+					<section 
+						data-markdown="./case2020/03-system-memory-01-sasa.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+						<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+					</section>
+
+					<section>
+						<section>
+							<img src="./case2020/stack-heap.png">
+							<p id="value-1" class="fragment leftalign" data-fragment-index="1" style="position: absolute; font-size: 70%;left: 0; width: auto;height: auto;bottom: -10px;">string text = "Text123";</p>
+							<p id="value-2" class="fragment leftalign" data-fragment-index="2" style="bottom: auto; width: auto;height: auto; position: absolute; bottom: 54px; font-size: 70%; left: 0;" >text</p>
+							<p id="value-3" class="fragment" data-fragment-index="2" style="width: auto;height: auto; position: absolute; bottom: 54px; font-size: 70%; left: 230px;" >0x01</p>
+							<p id="value-4" class="fragment" data-fragment-index="2" style="width: auto;height: auto; position: absolute; top: 80px; font-size: 70%; right: 210px;" >"Text123"</p>
+							<p id="value-5" class="fragment leftalign" data-fragment-index="3" style="position: absolute; font-size: 70%;left: 0; width: auto;height: auto; bottom: -50px;">text = text.Substring(4);</p>
+							<p id="value-6" class="fragment" data-fragment-index="4" style="width: auto;height: auto; position: absolute; top: 160px; font-size: 70%; right: 230px;" >"123"</p>
+							<p id="value-7" class="fragment" data-fragment-index="5" style="width: auto;height: auto; position: absolute; bottom: 130px; font-size: 70%; left: 0px; color: lightseagreen;">pointer</p>
+							<p id="value-8" class="fragment" data-fragment-index="5" style="width: auto;height: auto; position: absolute; bottom: 200px; font-size: 70%; left: 0px; color: lightseagreen;">offset</p>
+							<p id="value-9" class="fragment" data-fragment-index="5" style="width: auto;height: auto; position: absolute; bottom: 280px; font-size: 70%; left: 0px; color: lightseagreen;">length</p>									<p id="value-10" class="fragment" data-fragment-index="5" style="width: auto;height: auto; position: absolute; bottom: 130px; font-size: 70%; left: 230px; color: lightseagreen;">0x01</p>
+							<p id="value-11" class="fragment" data-fragment-index="5" style="width: auto;height: auto; position: absolute; bottom: 200px; font-size: 70%; left: 250px; color: lightseagreen;">0</p>
+							<p id="value-12" class="fragment" data-fragment-index="5" style="width: auto;height: auto; position: absolute; bottom: 280px; font-size: 70%; left: 250px; color: lightseagreen;">7</p>
+							<p id="value-13" class="fragment leftalign" data-fragment-index="6" style="position: absolute; font-size: 70%;left: 0; width: auto;height: auto; bottom: -80px;">span = span.Slice(4);</p>
+						</section>
+					</section>
+
+					<section 
+						data-markdown="./case2020/03-system-memory-02-sasa.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+						<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+					</section>
+				
+					<section 
+						data-markdown="./case2020/03-system-memory-03-sasa.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+						<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+					</section>	
+
+					<section 
+						data-markdown="./case2020/03-system-memory-04-sasa.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+						<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+					</section>			
+			
+				</section>
+				<section>
+					<section 
+						data-markdown="./case2020/04-data-science-01-katodix.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+						<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+					</section>						
+					<section 
+						data-markdown="./case2020/04-data-science-02-katodix.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+						<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+					</section>						
+					<section 
+						data-markdown="./case2020/04-data-science-03-katodix.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+						<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+					</section>						
+				</section>
+				<section>
+					<section 
+						data-markdown="./case2020/05-xamarin-android-androidx-01-moljac.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+						<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+					</section>						
+					<section 
+						data-markdown="./case2020/05-xamarin-android-androidx-02-moljac.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="iso-8859-15"
+						>
+						<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+							For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+						-->
+					</section>						
+				</section>
+				<section 
+					data-markdown="./case2020/99-outro-choir-and-fat-lady-sing.md"
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+					data-charset="iso-8859-15"
+					>
+					<!--
+					Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+						For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+					-->
+				</section>						
+		
+				<!--
+					HolisticWare
+					=========================================================================================
+				-->
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+
+			Reveal.addEventListener( 'fragmentshown', function( event ) {
+				if(event.fragment.dataset.fragmentIndex == 3)
+				{
+					document.getElementById("value-3").textContent="0x02";
+					document.getElementById("value-3").style.color = "green";
+				}
+				if(event.fragment.dataset.fragmentIndex == 4)
+				{
+					document.getElementById("value-3").textContent="0x01";
+					document.getElementById("value-3").style.color = "white";
+					document.getElementById("value-5").textContent="ReadOnlySpan<char> span = text.AsSpan();";
+					document.getElementById("value-6").textContent="";
+				}
+				if(event.fragment.dataset.fragmentIndex == 5)
+				{
+					document.getElementById("value-11").textContent="4";
+				}
+				// console.log(event.fragment.dataset.fragmentIndex);
+			});
+		</script>
+	</body>
+</html>
+
+<style>
+	.reveal section img 
+	{ 
+		background:none; 
+		border:none; 
+		box-shadow:none; 
+	}
+	.leftalign
+	{
+    	text-align: left;
+	}
+</style>
