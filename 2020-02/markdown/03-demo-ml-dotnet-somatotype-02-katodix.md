@@ -1,4 +1,4 @@
-## 4.2 Demo - SomaTotype
+## 3.2 Demo - SomaTotype
 
 *   SomatoType
 

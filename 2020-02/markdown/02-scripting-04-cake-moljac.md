@@ -1,6 +1,8 @@
-## Scripting - Cake `dotnet cake`
+## 2.4 Scripting - Cake Build
 
 *   DevOps!
+
+*   Cake = C# `make`
 
 *   .NET Core tool
 

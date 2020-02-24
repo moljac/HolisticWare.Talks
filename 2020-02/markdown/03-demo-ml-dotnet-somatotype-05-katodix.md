@@ -1,6 +1,6 @@
-## 4.5 Demo - SomaTotype
+## 3.5 Demo - SomaTotype
 
-Demo Steps
+Demo Steps:
 
 1.   Microsoft's tutorials demo apps - Console
 

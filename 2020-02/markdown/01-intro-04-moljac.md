@@ -1,4 +1,4 @@
-## Intro 04 - Scripting Options
+## 1.4 Intro - Scripting Options
 
 *   Options
 
