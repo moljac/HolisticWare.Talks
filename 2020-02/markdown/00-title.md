@@ -7,7 +7,7 @@
 
 *   Darko Katovic 
 
-    KIF
+    Faculty of Kinesiology
 
 *   Miljenko Cvjetko (moljac) 
 
