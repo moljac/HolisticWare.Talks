@@ -1,4 +1,4 @@
-## 4.3 Demo - SomaTotype
+## 3.3 Demo - SomaTotype
 
 *   domain experts research thorugh scripting 
 
@@ -10,4 +10,8 @@
 
     *   integrate code from research step into apps
 
-> DEMOs
+*   problems
+
+    *   tutorials/demos (all-in-one)
+
+> SCRIPTING DEMOs
