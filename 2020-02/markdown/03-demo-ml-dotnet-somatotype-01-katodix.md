@@ -1,4 +1,4 @@
-## 4.1 Demo - SomaTotype 
+## 3.1 Demo - SomaTotype 
 
 *   inspired by real "problem"
 

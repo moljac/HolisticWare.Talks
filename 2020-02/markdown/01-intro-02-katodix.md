@@ -1,4 +1,4 @@
-## Intro 02
+## 1.2 Intro
 
 *   apps
 
