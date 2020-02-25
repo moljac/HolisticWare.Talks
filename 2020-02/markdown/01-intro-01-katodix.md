@@ -12,7 +12,7 @@
 
     *   scripting!!
 
-    *   prototyping ()
+    *   prototyping (proof-of-conept, experiments)
 
    *   apps - NO 
 
