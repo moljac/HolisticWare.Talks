@@ -8,7 +8,7 @@
 
     *   Math
 
-    *   tools: R, Python, Matlab (Octave), Statistica
+    *   tools: R, Python, Matlab (Octave), SAS, Statistica, SPSS
 
     *   scripting!!
 
