@@ -4,6 +4,6 @@
 
 MAUI (evolution of Xamarin.Forms)
 
-![MAUI](https://docs.microsoft.com/en-us/dotnet/maui/media/what-is-maui/architecture.png "Maui")
+![MAUI](https://docs.microsoft.com/en-us/dotnet/maui/media/what-is-maui/maui.png "Maui")
 
 </small>
