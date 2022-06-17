@@ -12,4 +12,6 @@
 
     *   new MONO = MonoVM (CLR) 
 
+https://docs.microsoft.com/en-us/xamarin/android/internals/architecture
+
 </small>

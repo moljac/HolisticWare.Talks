@@ -4,7 +4,7 @@
 
 *   4 implementations
 
-    *   .NET Core (.NET 5+, current 6 LTS 3, preview 7)
+    *   .NET Core (.NET 5+, 6 current, 3 LTS, 7 preview)
 
     *   .NET Framework
 

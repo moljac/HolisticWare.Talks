@@ -24,7 +24,6 @@ public class OnContextAvailableListenerImplementor
 		mono.android.Runtime.register ("AndroidX.Activity.ContextAware.IOnContextAvailableListenerImplementor, Xamarin.AndroidX.Activity", OnContextAvailableListenerImplementor.class, __md_methods);
 	}
 
-
 	public OnContextAvailableListenerImplementor ()
 	{
 		super ();

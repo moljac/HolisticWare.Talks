@@ -10,6 +10,10 @@
 
         *   portable
 
+            *   Mono - autotools
+
+            *   .NET CLR - CMake
+
         *   .NET [Core] CLR not as optimized for "smaller" platforms
 
 </small>

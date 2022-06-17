@@ -1,4 +1,4 @@
-### 2.3 .NET For Android Architecture ACW 1
+### 2.3 .NET For Android Architecture ACW 2
 
 <small>
 
