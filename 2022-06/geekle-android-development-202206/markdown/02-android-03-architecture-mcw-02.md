@@ -2,17 +2,24 @@
 
 <small>
 
+*   MCW  Managed Callable Wrappers
 
-*   customizing bindings
+    *   C# code generated in bindings project
+    
+*   Bindings
 
-    https://docs.microsoft.com/en-us/xamarin/android/platform/binding-java-library/customizing-bindings/
+    *   `android.jar` => `mono.android.dll`
 
-    https://docs.microsoft.com/en-us/xamarin/android/platform/binding-java-library/customizing-bindings/java-bindings-metadata
+    *   tools
 
-    https://docs.microsoft.com/en-us/xamarin/android/platform/binding-java-library/customizing-bindings/java-bindings-metadata
+        *   `class-parse`
 
-*   troubleshooting bindings
+            *   generates `api.xml` AOSP format for API
 
-    https://docs.microsoft.com/en-us/xamarin/android/platform/binding-java-library/troubleshooting-bindings
+        *   `generator`
+
+            *   generates C# from `api.xml` 
+
+        *   metadata (`Metadata.xml`) XPath to customize `api.xml`
 
 </small>

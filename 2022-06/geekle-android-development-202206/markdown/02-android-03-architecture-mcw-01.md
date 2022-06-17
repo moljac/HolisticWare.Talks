@@ -8,13 +8,18 @@
     
 *   Bindings
 
-    https://docs.microsoft.com/en-us/xamarin/android/platform/binding-java-library/
+    *   `android.jar` => `mono.android.dll`
 
-    https://docs.microsoft.com/en-us/xamarin/android/platform/binding-java-library/binding-a-jar
+    *   tools
 
-    https://docs.microsoft.com/en-us/xamarin/android/platform/binding-java-library/binding-an-aar
+        *   `class-parse`
 
-    https://docs.microsoft.com/en-us/xamarin/android/platform/binding-java-library/binding-a-library-project
+            *   `api.xml` AOSP format for API
 
+        *   `generator`
+
+            *   generates C# from `api.xml` 
+
+        *   metadata (`Metadata.xml`) XPath to customize `api.xml`
 
 </small>
