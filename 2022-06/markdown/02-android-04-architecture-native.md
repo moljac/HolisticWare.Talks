@@ -2,6 +2,6 @@
 
 <small>
 
-    https://docs.microsoft.com/en-us/xamarin/android/platform/native-libraries
+https://docs.microsoft.com/en-us/xamarin/android/platform/native-libraries
 
 </small>

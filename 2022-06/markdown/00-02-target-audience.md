@@ -8,4 +8,10 @@
     
     *   .NET developers to hear more about Android development
 
+*   presentation and code
+
+    *   https://github.com/moljac/HolisticWare.Talks
+
+        *   https://github.com/moljac/HolisticWare.Talks/tree/master/2022-06
+        
 </small>
