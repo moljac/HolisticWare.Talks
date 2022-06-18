@@ -1,9 +1,13 @@
-### 3.1 .NET For Android Demo
+### 4.1 .NET For Android Demo
 
 <small>
 
 ```
 $HOME/Library/Android/sdk/emulator/emulator -avd "Pixel_XL_API_30"
+```
+
+```
+mkdir Geekle/ && cd Geekle/
 ```
 
 ```

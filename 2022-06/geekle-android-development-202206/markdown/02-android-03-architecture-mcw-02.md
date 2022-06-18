@@ -1,25 +1,31 @@
-### 2.3 .NET For Android Architecture MCW 1
+### 2.3 .NET For Android Architecture MCW 3
 
 <small>
 
-*   MCW  Managed Callable Wrappers
+tool `class-parse`
 
-    *   C# code generated in bindings project
-    
-*   Bindings
+```
+ll KoinAndroidBinding/obj/Debug/ 
+```
 
-    *   `android.jar` => `mono.android.dll`
+```
 
-    *   tools
+...snip...
 
-        *   `class-parse`
-
-            *   generates `api.xml` AOSP format for API
-
-        *   `generator`
-
-            *   generates C# from `api.xml` 
-
-        *   metadata (`Metadata.xml`) XPath to customize `api.xml`
+MonoAndroid,Version=v12.0.AssemblyAttributes.cs
+__AndroidLibraryProjects__.zip
+api.xml
+api.xml.class-parse
+api.xml.fixed
+designtime
+generated
+generator.stamp
+jl/
+library_project_jars/
+libraryimports.cache
+libraryprojectimports.cache
+lp/
+stamp
+```
 
 </small>

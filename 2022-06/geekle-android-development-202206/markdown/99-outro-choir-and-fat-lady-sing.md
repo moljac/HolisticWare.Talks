@@ -1,5 +1,7 @@
-## Outro
-## Choir and fat lady singing
+### Outro
+### Choir and fat lady singing
+
+<small>
 
 > QUESTIONS?
 
@@ -10,3 +12,5 @@
         *   https://github.com/moljac/HolisticWare.Talks/tree/master/2022-06
 
 > THANKS
+
+</small>

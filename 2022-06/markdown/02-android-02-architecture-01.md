@@ -1,4 +1,4 @@
-#### 2.3 .NET For Android Architecture 1
+### 2.3 .NET For Android Architecture 1
 
 <small>
 

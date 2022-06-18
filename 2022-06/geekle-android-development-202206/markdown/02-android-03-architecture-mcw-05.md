@@ -1,35 +1,32 @@
-### 2.3 .NET For Android Architecture MCW 5
+### 2.3 .NET For Android Architecture MCW 6
 
 <small>
 
-```
-KoinAndroidBinding/obj/$CONFIGURATION/generated/src 
-```
+customizing bindings (errors, Java vs C# idioms, Normalization/ .Nettification)
 
-```
-KoinAndroidBinding/obj/Debug/generated/src 
-```
+`Matadata.xml`
 
-```
+```xml
+<metadata>
+    <!-- Normalize the namespace for .NET -->
+    <attr path="/api/package[@name='com.evernote.android.job']" 
+        name="managedName">Evernote.AndroidJob</attr>
 
-...snip...
+    <!-- Change a parameter name from the generic p0 to a more meaningful one. -->
+    <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobManager']/method[@name='forceApi']/parameter[@name='p0']" 
+        name="name">api</attr>
 
-Androidx.Lifecycle.StateViewModelFactory.cs
-Java.Interop.__TypeRegistrations.cs
-KoinAndroidBinding.projitems
-Org.Koin.Android.BuildConfig.cs
-Org.Koin.Android.Error.MissingAndroidContextException.cs
-Org.Koin.Android.Ext.Android.AndroidKoinScopeExtKt.cs
-Org.Koin.Android.Ext.Android.ComponentCallbackExtKt.cs
-Org.Koin.Android.Ext.Koin.KoinExtKt.cs
-Org.Koin.Android.Ext.Koin.ModuleExtKt.cs
+    <!-- Don't  need these packages for the Xamarin binding/public API --> 
+    <remove-node path="/api/package[@name='com.evernote.android.job.v14']" />
+    <remove-node path="/api/package[@name='com.evernote.android.job.v21']" />
 
-...snip...
-
-Org.Koin.Androidx.Viewmodel.ViewModelResolverKt.cs
-__NamespaceMapping__.cs
-enumlist
-generator.rsp
+    <add-node path="/api/package[@name='org.alljoyn.bus']">
+        <class abstract="false" deprecated="not deprecated" final="false" name="AuthListener.AuthRequest" static="true" visibility="public" extends="java.lang.Object">
+            <constructor deprecated="not deprecated" final="false" name="AuthListener.AuthRequest" static="false" type="org.alljoyn.bus.AuthListener.AuthRequest" visibility="public" />
+            <field name="p0" type="org.alljoyn.bus.AuthListener.Credentials" />
+        </class>
+    </add-node>
+</metadata>
 ```
 
 </small>

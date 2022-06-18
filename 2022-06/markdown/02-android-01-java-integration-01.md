@@ -25,5 +25,4 @@ https://docs.microsoft.com/en-us/xamarin/android/platform/java-integration/
     
     *   tools like Sharpen
 
-
 </small>

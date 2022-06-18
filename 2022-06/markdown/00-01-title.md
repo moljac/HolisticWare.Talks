@@ -1,5 +1,7 @@
 ## Geekle 2022-06 
-## .NET Android (Xamarin. Android) under the hood
+## .NET [for] Android 
+### (Xamarin. Android) 
+### under the hood
 
 *   Miljenko Cvjetko (moljac) 
 

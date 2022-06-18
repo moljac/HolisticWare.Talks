@@ -1,12 +1,12 @@
-### 2.2 .NET For Android Intro
+### 2.1 .NET For Android Intro
 
 <small>
 
 *   formerly known as Xamarin.Android
 
-    *   traditional 
-
     *   native
+
+    *   traditional
 
 *   instead of Java or Kotlin code is written in C#
 
