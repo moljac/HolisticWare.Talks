@@ -81,21 +81,21 @@ public class MainActivity : Activity
             // // Add the request to the RequestQueue.
             // queue.Add(stringRequest);
 
-               Square.OkHttp.OkHttpClient client = new Square.OkHttp.OkHttpClient();
+            Square.OkHttp.OkHttpClient client = new Square.OkHttp.OkHttpClient();
 
-                // Create request for remote resource.
-                Square.OkHttp.Request request = new Square.OkHttp.Request
-                                                                    .Builder()
-                                                                    .Url(url)
-                                                                    .Build();
+            // Create request for remote resource.
+            Square.OkHttp.Request request = new Square.OkHttp.Request
+                                                                .Builder()
+                                                                .Url(url)
+                                                                .Build();
 
-                // Execute the request and retrieve the response.
-                Square.OkHttp.Response response = client.NewCall(request).Execute();
+            // Execute the request and retrieve the response.
+            Square.OkHttp.Response response = client.NewCall(request).Execute();
 
-                // Deserialize HTTP response to concrete type.
-				string body = response.Body().String();
+            // Deserialize HTTP response to concrete type.
+            string body = response.Body().String();
 
-                MainActivity.text_view_response!.Text = body;
+            MainActivity.text_view_response!.Text = body;
                 
             return;
         }
